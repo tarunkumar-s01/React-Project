@@ -1,0 +1,50 @@
+.form-container {
+    background-color: #f9f9f9; /* Light background for contrast */
+    min-height: 500px; /* Match height of About and Product pages */
+    max-height: 600px; /* Ensures consistent height */
+    width: 80%; /* Match width proportion */
+    margin: 0 auto; /* Center align the form horizontally */
+    padding: 20px; /* Add spacing inside the form */
+    border: 2px solid #d1d1d1; /* Optional border for cleaner look */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  .form {
+    width: 100%; /* Make form take full container width */
+  }
+  
+  .form-label {
+    font-size: 14px; /* Consistent label font size */
+    font-weight: bold; /* Emphasize the label */
+    margin-bottom: 5px; /* Space between label and input */
+  }
+  
+  .form-control {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Inner padding for input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+
+  
